@@ -130,6 +130,20 @@ h2 {
     border: 2px solid #61dafb;
 }
 
+.news {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #282c34;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.news:hover {
+    transform: translateY(-5px);
+}
+
 footer {
     background-color: #61dafb;
     color: #282c34;
