@@ -144,6 +144,12 @@ h2 {
     transform: translateY(-5px);
 }
 
+.contributor img {
+    width: 80px;
+    height: 80px;
+    border: 5px solid #FFFFFF;
+}
+
 footer {
     background-color: #61dafb;
     color: #282c34;
